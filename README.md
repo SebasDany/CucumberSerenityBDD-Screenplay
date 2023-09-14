@@ -4,16 +4,24 @@ Para iniciar el proyecto se utilizo un plantilla propia de serenityBDD.
 Pagina : https://serenity-bdd.github.io/docs/tutorials/cucumber-screenplay
 
 Clonar el proyecto.
-Una vez clonado abrir el proyecto el IntelliJ IDEA.
-Es un proyecto maven
-Una vez cargado el proyecto ejecutar las siguiente instrucciones:
-* nvm clean install
-* nvm verify
-Para ejecutar la prueba accerder a la carpeta test/resource/feature y 
-abrir el archivo productPage.feature y ejecurtar.
+Una vez clonado abrir el proyecto el IntelliJ IDEA como un proyecto maven.
 
-En caso de presentar inconveniente abrir el modulo de configuracion del proyecto y cambiar el JDK
-a 1.8 o a superior en esta pruba actualment se esta ejecutando con el 11.0.15
+# Configuracion del jdk para la compilacion
+
+* Dar click derecho sobre el proyecto
+* Seleccionar Open Module Settings
+![Paso 1](src/test/resources/images/Imagen1.png)
+
+* Una vez dentro ir a la secciòn de Plattform Settings y seleccionar la opcion de SDKs
+![Paso 2](src/test/resources/images/Imagen2.png)
+
+* Una vez dentro ir a JDK Home Path, seleccionar **select JDK HOME FROM DISK** y busar el jdk  de java 11 que tenga instalado en su computadora.
+* Si no tiene instaldo el jdk-11, seleccionar **Dowload JDK** y descargar la ultima version.
+  ![Paso 2](src/test/resources/images/Imagen3.png)
+
+
+Para ejecutar la prueba acceder al directorio **runners** y ejecutar el archivo **runnerTest**.
+
 
 # Conclusion
 
