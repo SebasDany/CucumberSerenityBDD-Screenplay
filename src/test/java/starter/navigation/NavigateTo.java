@@ -7,7 +7,7 @@ import net.serenitybdd.screenplay.actions.Open;
 public class NavigateTo {
 
     public static Performable theSearchHomePage() {
-        return Task.where("{0} opens the DuckDuckGo home page",
+        return Task.where("{0} opens the www.demoblaze.com home page",
                 Open.browserOn().the(DemoblazeHomePage.class));
     }
 }
